@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Repo Agent",
+  "description": "Smart Code Review & Refactoring Agent powered by Gemini 3.1 Pro that deeply understands entire GitHub repositories and creates architectural analysis and refactoring plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
