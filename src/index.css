@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+body {
+  background-color: #050505;
+  color: #ECECEC;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom prose styles for dark theme */
+.prose {
+  --tw-prose-body: #ECECEC;
+  --tw-prose-headings: #FFFFFF;
+  --tw-prose-links: #F27D26;
+  --tw-prose-bold: #FFFFFF;
+  --tw-prose-code: #F27D26;
+  --tw-prose-pre-bg: #151619;
+  --tw-prose-pre-code: #ECECEC;
+  --tw-prose-quotes: #8E9299;
+  --tw-prose-hr: #222222;
+  --tw-prose-th-borders: #333333;
+  --tw-prose-td-borders: #222222;
+}
+
+.prose pre {
+  border: 1px solid #333;
+}
+
